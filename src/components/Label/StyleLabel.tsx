@@ -7,6 +7,7 @@ const StyleLabel = styled.div`
   color: #FFFFFF;
   box-shadow: 0px 0px 5px gray;
   border-radius: 30px;
+  margin: auto;
   @media (min-width: 700px) {
     height: 900px;
     border-radius: 60px;
