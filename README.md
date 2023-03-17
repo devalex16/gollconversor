@@ -1,13 +1,42 @@
-## Running React on Repl.it
+<h1 align="center">
+	GollConversor
+</h1>
+<p align ="center">
+	GollConversor, um site de conversão de moedas 🔥 <br> [DOLAR PARA REAL]
+</p>
+<p align="center">
+ <a href="#producao">Produção</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+### Produção
+<p>
+ Um projeto feito no intuito de aprendizado de React com TypeScript focando no lado visual, o projeto é apenas uma demonstração de um conversor de moedas apesar da conversão funcionar.
+</p>
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+### Tecnologias
+<p>
+ Feito com React com TypeScript implementado com vite para chegar esse ponto.
+</p>
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+## ✔️ Técnicas e Tecnologias utilizadas 
+ - ``HTML`` ``CSS`` ``TypeScript``
+ - ``Conceitos de Responsividade``
+ - ``React com TypeScript`` ``styled-components``
+ - ``API``
 
-### Getting Started
-- Hit run
-- Edit [App.tsx](#src/App.tsx) and watch it live update!
+<p align="center">
+✔️ PROJETO FEITO ✔️
+</p>
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+<p align="center">
+ <a href="https://forelinks.vercel.app/">Site do Projeto - GollConversor</a>
+</p>
+
+### Licença
+
+Licença do Projeto [MIT License](./LICENSE)
+
+### Autor
+[<img width="100px" src="https://github.com/devalex16.png"/><div>Gollinha - Alex Silva</div>](https://github.com/devalex16)
