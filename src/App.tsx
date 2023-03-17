@@ -8,7 +8,7 @@ export default function App() {
       <CSSReset/>
       <Label/>
       <footer className="caption">
-        <p>o gráfico é apenas representativo de exemplo mas a conversão do dolar pro real funciona.</p>
+        <p>o gráfico é apenas representativo de exemplo mas a conversão do dólar pro real funciona.</p>
       </footer>
     </StyleBody>
   )

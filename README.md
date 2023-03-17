@@ -2,7 +2,7 @@
 	GollConversor
 </h1>
 <p align ="center">
-	GollConversor, um site de conversão de moedas 🔥 <br> [DOLAR PARA REAL]
+	GollConversor, um site de conversão de moedas 🔥 <br> [DÓLAR PARA REAL]
 </p>
 <p align="center">
  <a href="#producao">Produção</a> • 
@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
- <a href="https://forelinks.vercel.app/">Site do Projeto - GollConversor</a>
+ <a href="https://gollconversor.vercel.app/">Site do Projeto - GollConversor</a>
 </p>
 
 ### Licença
