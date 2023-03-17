@@ -16,13 +16,14 @@ const StyleMoedas = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 15vh;
-    width: 80vw;
+    height: 300px;
+    max-width: 800px;
     background: #0D1117;
     box-shadow: 0px 0px 5px white;
     border-radius: 10px;
     padding: 10px;
     @media (min-width: 700px) {
+      height: 400px;
       border-radius: 40px;
     }
     
