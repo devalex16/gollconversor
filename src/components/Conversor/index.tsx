@@ -1,14 +1,14 @@
-import { useState, useEffect } from 'react'
-import StyleConv from './StyleConversor'
+import { useState, useEffect } from 'react';
+import StyleConv from './styles';
 
 interface MoedasProps {
   money: number,
   rate: number,
-  setInput: boolean,
-  input: boolean
+  setInput?: boolean,
+  input?: boolean
 }
 
-function Conversor({ money, rate, input, setInput }: MoedasProps) {
+export default function Conversor({ money, rate, input, setInput }: MoedasProps) {
   const [wrap1, setWrap1] = useState(false);
   const [wrap2, setWrap2] = useState(false);
   
@@ -20,7 +20,6 @@ function Conversor({ money, rate, input, setInput }: MoedasProps) {
         <p>{money.toFixed(2)}</p>
         <nav onClick= {() => {
       setWrap1(!wrap1)
-      setInput(!input)
         }}>BRA</nav>
         <ul id="wrap1" className="options">
           <li>BRA</li>
@@ -41,5 +40,3 @@ function Conversor({ money, rate, input, setInput }: MoedasProps) {
     </StyleConv>
   )
 }
-
-export default Conversor;

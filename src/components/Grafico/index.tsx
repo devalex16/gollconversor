@@ -1,6 +1,6 @@
-import StyleGrafico from './StyleGrafico'
-function Grafico() {
+import StyleGrafico from './styles';
 
+export default function Grafico() {
   return (
     <StyleGrafico>
       <div id="colun0" className="colun"></div>
@@ -28,5 +28,3 @@ function Grafico() {
     </StyleGrafico>
   )
 }
-
-export default Grafico

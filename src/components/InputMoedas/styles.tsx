@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const StyleMoedas = styled.div`
   display: ${(props) => props.show ? 'flex' : 'none'};

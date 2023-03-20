@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react'
-import StyleLabel from './StyleLabel'
-import Conversor from '../Conversor/'
-import Grafico from '../Grafico'
-import InputMoedas from '../InputMoedas'
+import { useState, useEffect } from 'react';
+import StyleLabel from './styles';
+import Conversor from '../Conversor';
+import Grafico from '../Grafico';
+import InputMoedas from '../InputMoedas';
 
-function Label() {
+export default function Label() {
   const [rate, setRate] = useState(0)
   const [input, setInput] = useState(false)
   const [money, setMoney] = useState(0)
@@ -24,5 +24,3 @@ function Label() {
     </StyleLabel>
   )
 }
-
-export default Label;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const StyleConv = styled.div`
   display: flex;
@@ -41,6 +41,7 @@ const StyleConv = styled.div`
     border-radius: 6px;
     background: white;
     margin: auto;
+    z-index: 0;
     @media (min-width: 700px) {
       height: 50px;
       width: 100px;
