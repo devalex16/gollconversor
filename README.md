@@ -17,7 +17,7 @@
 
 ### Tecnologias
 <p>
- Feito com React com TypeScript implementado com vite para chegar esse ponto.
+ Feito em React com TypeScript.
 </p>
 
 ## ✔️ Técnicas e Tecnologias utilizadas 
